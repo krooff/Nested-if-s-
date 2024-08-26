@@ -10,7 +10,7 @@ else:
 # Recommend additional equipment based on the number of attendees
 if attendees >= 100:
     print("Use the audio system.")
-if attendees >= 50:
+if attendees <= 50:
     print("Don't forget the projector.")
 
 # Task 3: Catering Choices
